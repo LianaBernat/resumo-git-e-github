@@ -39,3 +39,4 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de Vesionamento 
 - **git commit --amend -m"novonome":** muda o nome do último commit.
 - **git reset --soft/mixed/hard codigo-commit-para-retornar:** reseta e retorna a um commit. Ficar atento as opções.
 - **git reflog:** mostra a lista de alterações.
+- **git pull:** para puxar alterações do repositório remoto para o local.

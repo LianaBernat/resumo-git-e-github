@@ -18,7 +18,7 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de Vesionamento 
 - ls: lista arquivos do diretório
 - cat "nome.arquivo": exibe conteúdo do arquivo
 - touch nome-arquivo.xx: cria um novo arquivo.
-- echo conteúdo > .nome-arquivo: cria um arquvivo com o nome escolhido com o conteúdo antes do sinal >.
+- echo conteúdo > nome-arquivo.extensão: cria um arquvivo com o nome escolhido com o conteúdo antes do sinal >.
 - rm -rf .git: remove o repositório git de uma pasta.
 
 
@@ -39,4 +39,12 @@ Repositório para armazenar resumos sobre Git e GitHub do curso de Vesionamento 
 - **git commit --amend -m"novonome":** muda o nome do último commit.
 - **git reset --soft/mixed/hard codigo-commit-para-retornar:** reseta e retorna a um commit. Ficar atento as opções.
 - **git reflog:** mostra a lista de alterações.
+- **git push origin main:** para enviar alterações do main para o remoto origin.
 - **git pull:** para puxar alterações do repositório remoto para o local.
+- **git fetch:** baixa as alterações sem mesclar(git pull= git fetch + git merge)
+- **git checkout -b nome-da-nova-branch:** cria uma nova branch apontando para último commits
+- **git checkout main:** retorna para brach já existente, nesse caso a main.
+- **git branch -v:** mostra os commits por branch.
+- **git merge:**
+- **git branch:** Para listar as branchs.
+- **git branch -d nome-da-branch:** Para deletar a branch.
